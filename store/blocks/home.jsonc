@@ -13,7 +13,8 @@
       "textPosition":"right"
     }
     },
-    "infor-card # button-right":{
+
+    "infor-card#button-right":{
       "props" :{
         "isFullModeStyle": false,
         "textPosition" : "right",
@@ -26,7 +27,8 @@
         " textAlignment " : " centro "
       }
     },
-    "infor-card # button-left":{
+    
+    "infor-card#button-left":{
       "props":{
         "isFullModeStyle": false,
         "textPosition" : "left",
