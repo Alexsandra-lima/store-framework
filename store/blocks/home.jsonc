@@ -2,6 +2,7 @@
   "store.home": { 
     "blocks": [
       "rich-text",
+      "cartão de informações # botão direito",
       "cartão de informações # botão esquerdo"
        ]
   },
@@ -10,6 +11,18 @@
     "props": {
       "text": "**Hello, World!**",
       "textPosition" : "RIGHT"
+    },
+    "infor-card # button-right":{
+      "props" :{
+        "isFullModeStyle": false,
+        "textPosition" : "right",
+        "imageUrl" : "https://appliancetheme.vteximg.com.br/ arquivos / cozinha-rosa-min.png " ,
+        " headline " : " Vintage Pink " ,
+        " subhead ": "Dê à sua cozinha um estilo boho adicionando aparelhos vintage. <br> Disponível até janeiro de 2020. " ,
+        " callToActionMode " : " button " ,
+        " callToActionText " : " Explore " ,
+        " callToActionUrl " : " / sale / d " ,
+        " textAlignment " : " centro "
     },
     "infor-card # button-left":{
       "props":{
@@ -26,4 +39,5 @@
       }
     }
   }
+}
 }
