@@ -14,7 +14,6 @@
     "vtex.store-header": "2.x",
     "vtex.product-summary": "2.x",
     "vtex.store-footer": "2.x",
-    "vtex.store-components": "3.x",
     "vtex.styleguide": "9.x",
     "vtex.slider": "0.x",
     "vtex.carousel": "2.x",
@@ -42,6 +41,7 @@
     "vtex.slider-layout": "0.x",
     "vtex.iframe": "0.x",
     "vtex.breadcrumb": "1.x",
+    "vtex.store-components": "3.x"
    
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
