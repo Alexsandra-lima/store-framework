@@ -6,12 +6,14 @@
       "info-card#button-left"
     ]
   },
+
   "rich-text" : {
     "props": {
       "text": "**Hello, World!**",
       "textPosition": "RIGHT"
     }
   },
+
   "info-card#button-right" : {
     "props": {
     "isFullModeStyle": false,
@@ -25,6 +27,7 @@
     "textAlignment": "center"
     }
     },
+    
     "info-card#button-left" : {
       "props": {
         "isFullModeStyle": false,
