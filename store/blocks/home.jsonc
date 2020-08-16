@@ -10,8 +10,8 @@
   "rich-text" : {
     "props": {
       "text": "**Hello, World!**",
-      "textPosition":"right"
-    }
+      "textPosition" : "righ"
+         }
     },
 
     "info-card#button-right": {
