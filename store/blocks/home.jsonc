@@ -10,7 +10,8 @@
   "rich-text" : {
     "props": {
       "text": "**Hello, World!**",
-      "textPosition" : "RIGHT"
+      "textPosition":"right"
+    }
     },
     "infor-card # button-right":{
       "props" :{
@@ -23,6 +24,7 @@
         " callToActionText " : " Explore " ,
         " callToActionUrl " : " / sale / d " ,
         " textAlignment " : " centro "
+      }
     },
     "infor-card # button-left":{
       "props":{
@@ -39,5 +41,5 @@
       }
     }
   }
-}
-}
+
+
