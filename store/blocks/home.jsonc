@@ -21,13 +21,7 @@
       "textPosition": "center"
    }
  },
- 
- "flex-layout.col" : {
-    "props" : {
-      "text" : "Eu serei excluído em breve"
-      }
-    },
-    
+   
    "flex-layout.col" : {
      "children" : [
        "image#electronics",
