@@ -1,42 +1,43 @@
 {
-  "store.home" : {
+  "shelf.home" : {
     "blocks": [
-      "rich-text",
-      "info-card#button-right",
-      "info-card#button-left"
+      "shelf.jsonc"
     ]
   },
-  "rich-text" : {
-    "props": {
-      "text": "**Hello, World!**",
-      "textPosition": "RIGHT"
-    }
-  },
-  "info-card#button-right" : {
-    "props": {
-    "isFullModeStyle": false,
-    "textPosition": "right",
-    "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
-    "headline": "Vintage Pink",
-    "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
-    "callToActionMode": "button",
-    "callToActionText": "Explore",
-    "callToActionUrl": "/sale/d",
-    "textAlignment": "center"
-    }
-    },
-    "info-card#button-left" : {
-      "props": {
-        "isFullModeStyle": false,
-        "textPosition": "left",
-        "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
-        "headline": "Shining chrome",
-        "subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.",
-        "callToActionMode": "link",
-        "callToActionText": "Go to Collection",
-        "callToActionUrl": "/sale/d",
-        "textAlignment": "center"
 
-    }
-  }
+ "shelf.jsonc" : {
+   "children" : [
+    "shelf"
+   ]
+  },
+   "shelf" : {
+    "blocks" : ["product-summary.shelf"],
+    "props" : {
+      "categoria" : 1 ,
+      "orderBy" : "OrderByTopSaleDESC" ,
+      "paginationDotsVisibility" : "desktopOnly" ,
+      "productList" : {
+        "maxItems" : 8,
+        "itemsPerPage" : 4 ,
+        "minItemsPerPage" : 1 ,
+        "scroll" : "BY_PAGE" ,
+        "flechas" : true ,
+        "titleText" : "Mais vendidos"
+     } 
+   } 
+ }, 
+ 
+ "product-summary.shelf" : {
+    "children" : [
+      "product-summary-image" ,
+      "product-summary-add-to-list-button" ,
+      "product-summary-name" ,
+      "product -rating-inline" ,
+      "product-summary-space" ,
+      "product-summary-price" ,
+      "product-identifier.summary" ,
+     "botão de compra de resumo do produto" 
+   ]    
+ }
 }
+
