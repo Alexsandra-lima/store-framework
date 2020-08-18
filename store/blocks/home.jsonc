@@ -6,15 +6,12 @@
   },
 
  "shelf.jsonc" : {
-ra   "blocks" : [
+   "props" : [
     "shelf"
    ]
   },
    "shelf" : {
-    "blocks" : [
-      "product-summary.shelf"
-    ],
-
+    "blocks" : ["product-summary.shelf"],
     "props" : {
       "categoria" : 1 ,
       "orderBy" : "OrderByTopSaleDESC" ,
