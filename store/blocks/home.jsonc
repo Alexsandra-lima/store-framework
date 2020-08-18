@@ -1,8 +1,6 @@
 {
-  "store.home" : {
-    "blocks": [
-      "shelf.jsonc"
-      ]
+    "shelf#home": {
+    "blocks": ["shelf.jsonc"]
   },
 
  "shelf.jsonc" : {
@@ -17,6 +15,7 @@
       "orderBy" : "OrderByTopSaleDESC" ,
       "paginationDotsVisibility" : "desktopOnly" ,
       "productList" : 
+      
       {
         "maxItems" : 8,
         "itemsPerPage" : 4 ,
