@@ -1,9 +1,9 @@
 {
   "store.home" : {
-    "blocks":[]
+    "blocks":["shelf.jsonc"]
   },
     "shelf#home": {
-    "blocks": ["shelf.jsonc"]
+    "blocks": []
   },
 
  "shelf.jsonc" : {
