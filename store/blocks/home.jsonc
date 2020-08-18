@@ -1,17 +1,13 @@
 {
   "store.home" : {
-    "blocks":["shelf.jsonc"]
+    "blocks" : [
+      "shelf.jsonc"
+      
+    ]
   },
-    "shelf#home": {
-    "blocks": []
-  },
-
- "shelf.jsonc" : {
-   "props" : [
-    "shelf"
-   ]
-  },
-   "shelf" : {
+  "shelf.json" : {
+    "blocks":["shelf"] 
+  }, "shelf" : {
     "blocks" : ["product-summary.shelf"],
     "props" : {
       "categoria" : 1 ,
@@ -26,8 +22,8 @@
         "scroll" : "BY_PAGE" ,
         "flechas" : true ,
         "titleText" : "Mais vendidos"
-     
+      }
       }
     }
   }
-}
+
