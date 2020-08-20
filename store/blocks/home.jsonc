@@ -1,11 +1,13 @@
 {
   "store.home":{
-    "blocks": []
+    "blocks": [
+      "shelf.jsonc"
+    ]
   },
+
   "store.shelf": {
     "blocks": [
-     "shelf.jsonc"
-      
+           
     ]
   },
   
