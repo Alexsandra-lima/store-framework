@@ -1,4 +1,7 @@
 {
+  "store.home":{
+    "blocks": []
+  },
   "store.shelf": {
     "blocks": [
      "shelf.jsonc"
