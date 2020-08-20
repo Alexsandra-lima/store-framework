@@ -1,19 +1,16 @@
 {
   "store.home" : {
     "blocks" : [
-           
-    ]
-  },
-
-"shelf.home" : {
-"blocks" : [
+      "shelf.home",
       "shelf.jsonc"
       
     ]
 },
   "shelf.json" : {
     "blocks":["shelf"] 
-  }, "shelf" : {
+    }, 
+    
+    "shelf" : {
     "blocks" : ["product-summary.shelf"],
     "props" : {
       "categoria" : 1 ,
@@ -22,12 +19,12 @@
       "productList" : 
 
       {
-        "maxItems" : 8,
-        "itemsPerPage" : 4 ,
-        "minItemsPerPage" : 1 ,
-        "scroll" : "BY_PAGE" ,
-        "flechas" : true ,
-        "titleText" : "Mais vendidos"
+        "maxItems": 8,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "flechas": true,
+        "titleText": "Mais vendidos"
       }
       }
     }
