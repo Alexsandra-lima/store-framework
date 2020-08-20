@@ -1,7 +1,7 @@
 {
   "store.home" : {
     "blocks" : [
-      "shelf.home",
+      "shelf",
       "shelf.jsonc"
       
     ]
