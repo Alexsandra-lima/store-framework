@@ -1,25 +1,42 @@
 {
-  " store.home " : {
-    " blocks " : [
-      ... 
-     " shelf "
+  "store.home": {
+    "blocks": [
+      "shelf.jsonc",
+       "shelf"
    ]
  },
- 
- " shelf " : {
-    " blocks " : [ " product-summary.shelf " ],
-    " props " : {
-      " category " : 1 ,
-      " orderBy " : " OrderByTopSaleDESC " ,
-      " paginationDotsVisibility " : " desktopOnly " ,
-      " productList " : {
-        "maxItems " : 8,
-        " itemsPerPage " : 4 ,
-        " minItemsPerPage " : 1 ,
-        " scroll " : " BY_PAGE " ,
-        " flechas " : true ,
-        " titleText " : "Mais vendidos "
+  "shelf.json" : {
+    "blocks":[
+ "shelf"],
+ "shelf": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "category": 1 ,
+      "orderBy": "OrderByTopSaleDESC" ,
+      "paginationDotsVisibility": "desktopOnly" ,
+      "productList": {
+        "maxItems": 8,
+        "itemsPerPage": 4 ,
+        "minItemsPerPage": 1 ,
+        "scroll": "BY_PAGE" ,
+        "flechas": true ,
+        "titleText": "Mais vendidos"
+      }
      }
    }
- }
+ },
+
+ " product-summary.shelf " : {
+  " children " : [
+    " product-summary-image " ,
+    " product-summary-add-to-list-button " ,
+    " product-summary-name " ,
+    " product-rating-inline " ,
+    " product-summary-space " ,
+    " product-summary-price " ,
+    " product-identifier.summary " ,
+    "botão de compra de resumo do produto "
+ ]
+}
+}
  
