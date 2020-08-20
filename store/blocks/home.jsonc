@@ -1,31 +1,25 @@
 {
-  "store.home" : {
-    "blocks" : [
-      "shelf",
-      "shelf.jsonc"
-      
-    ]
-},
-  "shelf.json" : {
-  "blocks" :["shelf"]
-},
-    "shelf" : {
-    "blocks" : ["product-summary.shelf"],
-    "props" : {
-      "categoria" : 1 ,
-      "orderBy" : "OrderByTopSaleDESC" ,
-      "paginationDotsVisibility" : "desktopOnly" ,
-      "productList" : 
-
-      {
-        "maxItems": 8,
-        "itemsPerPage": 4,
-        "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "flechas": true,
-        "titleText": "Mais vendidos"
-      }
-      }
-    }
-  }
-
+  " store.home " : {
+    " blocks " : [
+      ... 
+     " shelf "
+   ]
+ },
+ 
+ " shelf " : {
+    " blocks " : [ " product-summary.shelf " ],
+    " props " : {
+      " category " : 1 ,
+      " orderBy " : " OrderByTopSaleDESC " ,
+      " paginationDotsVisibility " : " desktopOnly " ,
+      " productList " : {
+        "maxItems " : 8,
+        " itemsPerPage " : 4 ,
+        " minItemsPerPage " : 1 ,
+        " scroll " : " BY_PAGE " ,
+        " flechas " : true ,
+        " titleText " : "Mais vendidos "
+     }
+   }
+ }
+ 
