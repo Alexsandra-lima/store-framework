@@ -1,42 +1,41 @@
 {
-  "store.home": {
+  "store.shelf": {
     "blocks": [
-      "shelf.jsonc",
-       "shelf"
-   ]
- },
-  "shelf.json" : {
-    "blocks":[
- "shelf"],
- "shelf": {
+     "shelf.jsonc"
+      
+    ]
+  },
+  
+  "shelf.jsonc" : {
+    "blocks" :["shelf"]
+  },
+
+  "shelf": {
     "blocks": ["product-summary.shelf"],
     "props": {
-      "category": 1 ,
-      "orderBy": "OrderByTopSaleDESC" ,
-      "paginationDotsVisibility": "desktopOnly" ,
+      "category": 1,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
       "productList": {
         "maxItems": 8,
-        "itemsPerPage": 4 ,
-        "minItemsPerPage": 1 ,
-        "scroll": "BY_PAGE" ,
-        "flechas": true ,
-        "titleText": "Mais vendidos"
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Top sellers"
       }
-     }
-   }
- },
-
- " product-summary.shelf " : {
-  " children " : [
-    " product-summary-image " ,
-    " product-summary-add-to-list-button " ,
-    " product-summary-name " ,
-    " product-rating-inline " ,
-    " product-summary-space " ,
-    " product-summary-price " ,
-    " product-identifier.summary " ,
-    "botão de compra de resumo do produto "
- ]
+    }
+  },
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-image",
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-identifier.summary",
+      "product-summary-buy-button"
+    ]
+  }
 }
-}
- 
