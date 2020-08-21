@@ -4,7 +4,7 @@
     "props" : {
       "autoplay" : {
         "timeout" : 7000,
-        "stopOnHover" : false
+        "stopOnHover" : true
         
      }
    }
@@ -15,7 +15,9 @@
       "src" : "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square1.png",
       "isFullModeStyle" : true,
       "headline" : "Black Friday",
-      "callToActionText" : "Inscrever-se"
+      "callToActionText" : "Inscrever-se",
+      "stopOnHover" : false
+
       
    }
  },
@@ -26,7 +28,8 @@
       "isFullModeStyle" : true ,
       "headline" : "Black Friday" ,
       "callToActionText" : "Inscrever-se" ,
-      "textPosition" : "centro"
+      "textPosition" : "centro",
+      "stopOnHover" : false
      
     }
     },
@@ -37,7 +40,8 @@
       "isFullModeStyle" : true ,
       "headline" : "Black Friday" ,
       "callToActionText" : "Inscrever-se" ,
-      "textPosition" : "centro"
+      "textPosition" : "centro",
+      "stopOnHover" : false
      
    }
 },
@@ -48,7 +52,8 @@
       "isFullModeStyle" : true ,
       "headline" : "Black Friday" ,
       "callToActionText" : "Inscrever-se" ,
-      "textPosition" : "centro"
+      "textPosition" : "centro",
+      "stopOnHover" : false
     
    }
 },
@@ -59,7 +64,8 @@
       "isFullModeStyle" : true ,
       "headline" : "Black Friday" ,
       "callToActionText" : "Inscrever-se" ,
-      "textPosition" : "centro"
+      "textPosition" : "centro",
+      "stopOnHover" : false
    
    }
 },
@@ -70,7 +76,8 @@
       "isFullModeStyle" : true ,
       "headline" : "Black Friday",
       "callToActionText" : "Inscrever-se",
-      "textPosition" : "centro"
+      "textPosition" : "centro",
+      "stopOnHover" : false
      
     }
    }
