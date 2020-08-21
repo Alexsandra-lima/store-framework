@@ -15,7 +15,7 @@
       "isFullModeStyle" : true,
       "headline" : "Black Friday",
       "callToActionText" : "Inscrever-se",
-      "stopOnHover": true
+      "stopOnHover":  false
    }
  },
  
@@ -26,7 +26,7 @@
       "headline" : "Black Friday" ,
       "callToActionText" : "Inscrever-se" ,
       "textPosition" : "centro",
-      "stopOnHover" : true
+      "stopOnHover" :  false
     }
     },
    
@@ -37,7 +37,7 @@
       "headline" : "Black Friday" ,
       "callToActionText" : "Inscrever-se" ,
       "textPosition" : "centro",
-      "stopOnHover" : true
+      "stopOnHover" : false
    }
 },
    
@@ -48,7 +48,7 @@
       "headline" : "Black Friday" ,
       "callToActionText" : "Inscrever-se" ,
       "textPosition" : "centro",
-      "stopOnHover" : true
+      "stopOnHover" :  false
    }
 },
    
@@ -59,7 +59,7 @@
       "headline" : "Black Friday" ,
       "callToActionText" : "Inscrever-se" ,
       "textPosition" : "centro",
-      "stopOnHover" : true
+      "stopOnHover" : false
    }
 },
    
@@ -70,7 +70,7 @@
       "headline" : "Black Friday",
       "callToActionText" : "Inscrever-se",
       "textPosition" : "centro",
-      "stopOnHover" : true
+      "stopOnHover" : false
  
     }
    }
