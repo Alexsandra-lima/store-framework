@@ -1,58 +1,53 @@
 {
-    "store.home" : {
+    "responsive-layout.home" : {
       "blocks": [
-    "responsive-layout.desktop#desktop",
-    "responsive-layout.mobile#mobile"
+        "responsive-layout.desktop#desktop", "responsive-layout.mobile#mobile"
     
      ]
     },
     "responsive-layout.desktop#desktop" : {
-      "children" : [
-         "rich-text#desktop",
-          "image#desktop"
-       ]
+      "children" : [ "rich-text#desktop", "image#desktop"]
    },
    "responsive-layout.mobile#mobile" : {
-      "children" : [
-         "rich-text#mobile",
-         "image#mobile"
+      "children" : ["rich-text#mobile", "image#mobile"
       ]
    },
    
   "rich-text#desktop" : {
     "props" : {
-      "text" : "###Your Coffee, Your Way \n ### New Coffee Makers Collection" ,
-      "textPosition" : "CENTER" ,
+      "text" : "#Your Coffee, Your Way \n ### New Coffee Makers Collection" ,
+      "textPosition" : "CENTER",
       "textAlignment" : "CENTER"
    }
   },
   
-  "image#desktop" : {
-    "props" : {
-      "src" : "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Desktop.jpg?q=1" ,
-      "link" : {
-        "url" : "/pequenos aparelhos/cafeteiras"
-     },
-     "alt" : "Coleção de cafeteiras", 
-     "max-white" : 100
-   }
-  },
-     
+    
     "rich-text#mobile" : {
       "props" : {
-        "text" : "### Your Coffee, Your Way {#custom-id} \n #### New Coffee Makers Collection {#custom-id}" ,
+        "text" : "# Your Coffee, Your Way {#custom-id} \n #### New Coffee Makers Collection {#custom-id}",
         "textPosition" : "CENTER" ,
         "textAlignment" : "CENTER"
      },
+
+     "image#desktop" : {
+        "props" : {
+          "src" : "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Desktop.jpg?q=1",
+          "link" : {
+            "url" : "small-appliances/coffee-makers"
+         },
+         "alt" : "Coffee Makers Collection", 
+         "max-Whidth" : 100
+       }
+      },
   
      "image#mobile" : {
       "props" : {
-        "src" : "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Mobile.jpg?q=1" ,
+        "src" : "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Mobile.jpg?q=1",
         "link" : {
-          "url" : "/ pequenos aparelhos / cafeteiras"
+          "url" : "/pequenos aparelhos/cafeteiras"
        },
        "alt" : "Coleção de cafeteiras",
-       "max-white" : 100
+       "max-Whidth" : 100
      }
     }
    }
