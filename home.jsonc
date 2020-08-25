@@ -8,16 +8,26 @@
   "responsive-layout.desktop#desktop" : {
     "children" : [
        "rich-text#desktop",
-      "image#desktop"
+        "image#desktop"
      ]
  },
- "image#desktop" : {
+ 
+"rich-text#desktop" : {
+  "props" : {
+    "text" : "#Your Coffee, Your Way \n ####New Coffee Makers Collection" ,
+    "textPosition" : "CENTER" ,
+    "textAlignment" : "CENTER"
+ }
+},
+
+"image#desktop" : {
   "props" : {
     "src" : "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Desktop.jpg?q=1" ,
     "link" : {
-      "url" : "/ pequenos aparelhos / cafeteiras"
+      "url" : "/pequenos aparelhos/cafeteiras"
    },
-   "alt" : "Coleção de cafeteiras"
+   "alt" : "Coleção de cafeteiras", 
+   "max-white" : 100
  }
 },
  "responsive-layout.mobile#mobile" : {
@@ -26,28 +36,23 @@
        "image#mobile"
     ]
  },
- "image#mobile" : {
-  "props" : {
-    "src" : "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Mobile.jpg?q=1" ,
-    "link" : {
-      "url" : "/ pequenos aparelhos / cafeteiras"
+  
+  "rich-text#mobile" : {
+    "props" : {
+      "text" : "# Your Coffee, Your Way \n #### New Coffee Makers Collection" ,
+      "textPosition" : "CENTER" ,
+      "textAlignment" : "CENTER"
    },
-   "alt" : "Coleção de cafeteiras"
- }
-},
- "rich-text#desktop" : {
+
+   "image#mobile" : {
     "props" : {
-      "text" : "# Your Coffee, Your Way \n #### New Coffee Makers Collection" ,
-      "textPosition" : "CENTER" ,
-      "textAlignment" : "CENTER"
+      "src" : "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Mobile.jpg?q=1" ,
+      "link" : {
+        "url" : "/ pequenos aparelhos / cafeteiras"
+     },
+     "alt" : "Coleção de cafeteiras",
+     "max-white" : 100
    }
- },
- 
- "rich-text#mobile" : {
-    "props" : {
-      "text" : "# Your Coffee, Your Way \n #### New Coffee Makers Collection" ,
-      "textPosition" : "CENTER" ,
-      "textAlignment" : "CENTER"
-   }
+  }
  }
 }
